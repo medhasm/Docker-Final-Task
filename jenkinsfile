@@ -3,7 +3,7 @@ pipeline{
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('mohamadassi173')
+		DOCKERHUB_CREDENTIALS=credentials('medhasm')
 	}
 
 	stages {
@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'sudo docker build -t mohamdassi173/bitcoin-flask:latest .'
+				sh 'sudo docker build -t medhasm/bitcoin-flask:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'sudo docker push mohamadassi173/bitcoin-flask'
+				sh 'sudo docker push medhasm/bitcoin-flask'
 			}
 		}
 	}
