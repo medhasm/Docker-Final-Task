@@ -11,7 +11,7 @@ Create a Python Web APP using FLASK that:
 Clone the project
 
 ```bash
-  git clone https://github.com/mohamadassi173/Docker-Final-Task.git
+  git clone https://github.com/medhasm/Docker-Final-Task.git
 ```
 
 Go to the project directory
