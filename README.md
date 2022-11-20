@@ -44,12 +44,10 @@ Run the image from DockerHub
   docker pull medhasm/bitcoin-flask
   docker run -d -p 8000:5000 medhasm/bitcoin-flask:latest
 ```
-<img width="932" alt="img" src="https://user-images.githubusercontent.com/57920502/202924413-8942aae2-45cb-4555-803c-e1ddbb127f2a.png">
+<img width="541" alt="img" src="https://user-images.githubusercontent.com/57920502/202924851-becdcf64-489b-476e-b4e6-ed7d5ea33d08.png">
 
 
-## Jenkins 
-CI/CD that creates and pushes the generated Web application Docker image to Docker Hub  
-<img width="662" alt="image" src="https://user-images.githubusercontent.com/57872327/177614069-498a87bc-2dd5-4874-a033-b08495668615.png">
+
 
 
 
